@@ -108,7 +108,7 @@ const quizTimer = (dismiss) => {
   
   const showAnswers = (data) => {
     // এই পুরো ফাইলে কেও কোন কিছু পরিবর্তন করবেন না । এইখানে কোন Bug নেই ।
-    const quizContainer = document.querySelector("#quizContainer");
+    const quizContainer = document.querySelector(".quizContainer");
     quizContainer.innerHTML = "";
     data = data.sort((a, b) => a.id - b.id);
     data.forEach((answer, idx) => {
