@@ -1,19 +1,52 @@
-<!-- section for answering 3 question  -->
-<section>
-    <h1>1. What is the difference between map, filter, foreach, and find?</h1>
-    <p><b>Ans.</b> map function will return an array based on the condition but foreach function returns undifined. filter method returns an array of matching elements else will return an empty array if no matching happends. Finally, find method did not search the whole array if the condition satisfies and return the single value . </p>
+<!DOCTYPE html>
+<html lang="en">
 
-    <h1>2. What is the difference between local storage, session storage and the cookies?</h1>
-    <p><b>Ans.</b> Local Storage are saved on the browser, whereas sessions are saved on the server and cookies are saved on the client side. Data is saved on the local storage parmanently, whereas the data on the session storage will disappear by closing the tab. </p>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog site</title>
+</head>
 
-    <h1>3. What is the event loop?</h1>
-    <p><b>Ans.</b> The event loop is a fundamental mechanism that  is responsible for managing the execution of code, handling events, and maintaining the flow of control.</p>
-</section>
+<body>
+    <!-- section for answering 3 question  -->
+    <section>
+        <h1>1. What is the difference between map, filter, foreach, and find?</h1>
+        <p><b>Ans.</b> map function will return an array based on the condition but foreach function returns undifined.
+            filter method returns an array of matching elements else will return an empty array if no matching happends.
+            Finally, find method did not search the whole array if the condition satisfies and return the single value .
+        </p>
+
+        <h1>2. What is the difference between local storage, session storage and the cookies?</h1>
+        <p><b>Ans.</b> Local Storage are saved on the browser, whereas sessions are saved on the server and cookies are
+            saved on the client side. Data is saved on the local storage parmanently, whereas the data on the session
+            storage will disappear by closing the tab. </p>
+
+        <h1>3. What is the event loop?</h1>
+        <p><b>Ans.</b> The event loop is a fundamental mechanism that is responsible for managing the execution of code,
+            handling events, and maintaining the flow of control.</p>
+    </section>
 
 
-<!-- section for describing quiztimer and chooseQuiz function  -->
-<section>
-    <!-- quizTimer function-->
-    <h1>Here, I will discuss about the working mechanism of quizTimer function.</h1>
-    <p><b>Ans.</b> Here we can see that quiztimer function is called inside the start Quiz button. That means when we will clicked on the start quiz button, then the quiztimer function will execute. The purpose of quizTimer function is to handle the time when the quiz will start. Inside quiz timer function there is another function called setInterval function that calculates the sec and minute and displayed it the website.Finally at the end of the function there is a if else condition and the work of this condition is if the timer(second) will even, it will show the timer color "text-red-300". otherwise, it will show "text-red-700" as a timer color.</p>
-</section>
+    <!-- section for describing quiztimer and chooseQuiz function  -->
+    <section>
+        <!-- quizTimer function-->
+        <h1>## Here, I will discuss about the working mechanism of quizTimer function?</h1>
+        <p><b>Ans.</b> Here we can see that quiztimer function is called inside the start Quiz button. That means when
+            we will clicked on the start quiz button, then the quiztimer function will execute. The purpose of quizTimer
+            function is to handle the time when the quiz will start. Inside quiz timer function there is another
+            function called setInterval function that calculates the sec and minute and displayed it the website.Finally
+            at the end of the function there is a if else condition and the work of this condition is if the
+            timer(second) will even, it will show the timer color "text-red-300". otherwise, it will show "text-red-700"
+            as a timer color.</p>
+
+        <h1>## Purpose of using chooseQuiz function?</h1>
+        <p><b>Ans.</b> Here the main purpose of using chooseQuiz is to store and show the questions in the website.
+            There is a variable inside chooseQuiz named answers. Inside this variable, the questions are stored and at
+            the end of this function we can see that there is another function named displayAnswers. This function is
+            showing the questions in the website from the answers variable (through loop) where we stored our questions
+            in the previous function.</p>
+    </section>
+
+</body>
+
+</html>
